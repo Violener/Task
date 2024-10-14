@@ -32,7 +32,7 @@ jobs:
       run: "java -version"
 
     - name: Checkout code 
-      uses: action/checout@v4
+      uses: actions/checout@v4
       with:
           ref: jenk
 
